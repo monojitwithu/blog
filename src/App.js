@@ -12,7 +12,7 @@ function App() {
       <Switch>
         {/* <Route path="/Home"><Home/></Route>
         <Route path="/Post"><Post/></Route> */}
-        <Route exact path="/Home" render={()=><Home/>}/>
+        <Route exact path="/" render={()=><Home/>}/>
         <Route exact path="/Post" render={()=><Post/>}/>
         <Route exact path="/Details" render={()=><Details/>}/>
       </Switch>
